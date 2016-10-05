@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 newPosition;
     private Random rand = new Random();
+    private double timeleft;
 
     // Use this for initialization
     void Start()
@@ -21,6 +22,8 @@ public class PlayerController : MonoBehaviour
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
         rb2d.position = Vector2.zero;
+
+        timeleft = 1;
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
@@ -41,9 +44,13 @@ public class PlayerController : MonoBehaviour
 
         //следующий код отвечает за передвежиние игрока по полченным координатам, через апи
 
-        newPosition = GetPlayerCoordTest();
-
-        rb2d.position = newPosition;
+        if (timeleft < 0)
+        {
+            newPosition = GetPlayerCoordTest();
+            timeleft = 1;
+            rb2d.position = newPosition;
+        }
+        timeleft -= Time.deltaTime;
     }
 
     Vector2 GetPlayerCoordTest()
