@@ -58,16 +58,28 @@ public class PlayerController : MonoBehaviour
         float x = rb2d.position.x;
         float y = rb2d.position.y;
 
+        var choice = rand.Next(0, 4);
+
         //бросаю монету(возможные вариант 1 или 0)
-        if (rand.Next(0, 2) == 0)
+        if (choice == 0)
         {
             x += 3.6f;
             y -= 3.6f;
         }
-        else
+        else if(choice == 1)
         {
             x -= 3.6f;
             y += 3.6f;
+        }
+        else if (choice == 2)
+        {
+            x += 3.6f;
+            y += 3.6f;
+        }
+        else if (choice == 3)
+        {
+            x -= 3.6f;
+            y -= 3.6f;
         }
 
         if (x > 10.8 || x < -10.8f)
