@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CheckTurnEvent	2DClient/Assets/Scripts/PlayerController.cs	/^    int CheckTurnEvent()$/;"	m	class:PlayerController	file:
+Client2	2DClient/Assets/Scripts/Network/Client2.cs	/^class Client2 : MonoBehaviour$/;"	c
+FixedUpdate	2DClient/Assets/Scripts/PlayerController.cs	/^    void FixedUpdate()$/;"	m	class:PlayerController	file:
+GetNewDirection	2DClient/Assets/Scripts/PlayerController.cs	/^    Vector3 GetNewDirection(int directionNumber)$/;"	m	class:PlayerController	file:
+LIMIT	2DClient/Assets/Scripts/Network/Server2.cs	/^    const int LIMIT = 1;$/;"	f	class:Server2	file:
+PlayerController	2DClient/Assets/Scripts/PlayerController.cs	/^public class PlayerController : MonoBehaviour$/;"	c
+SendSpam	2DClient/Assets/Scripts/Network/Client2.cs	/^    void SendSpam(){$/;"	m	class:Client2	file:
+Server2	2DClient/Assets/Scripts/Network/Server2.cs	/^class Server2 : MonoBehaviour$/;"	c
+Service	2DClient/Assets/Scripts/Network/Server2.cs	/^    void Service(){$/;"	m	class:Server2	file:
+Start	2DClient/Assets/Scripts/Network/Server2.cs	/^    void Start(){$/;"	m	class:Server2	file:
+Start	2DClient/Assets/Scripts/PlayerController.cs	/^    void Start()$/;"	m	class:PlayerController	file:
+TouchCamera	2DClient/Assets/Scripts/TouchCamera.cs	/^public class TouchCamera : MonoBehaviour$/;"	c
+Update	2DClient/Assets/Scripts/Network/Client2.cs	/^    void Update(){$/;"	m	class:Client2	file:
+Update	2DClient/Assets/Scripts/TouchCamera.cs	/^    void Update()$/;"	m	class:TouchCamera	file:
+V3	2DClient/Assets/Scripts/Network/V3.cs	/^    public V3(Vector3 vec)$/;"	m	class:V3
+V3	2DClient/Assets/Scripts/Network/V3.cs	/^class V3$/;"	c
+formatter	2DClient/Assets/Scripts/Network/Client2.cs	/^    BinaryFormatter formatter = new BinaryFormatter();$/;"	f	class:Client2	file:
+formatter	2DClient/Assets/Scripts/Network/Server2.cs	/^    BinaryFormatter formatter = new BinaryFormatter();$/;"	f	class:Server2	file:
+getVec	2DClient/Assets/Scripts/Network/V3.cs	/^    public Vector3 getVec()$/;"	m	class:V3
+ggg	2DClient/Assets/Scripts/Network/Client2.cs	/^    int ggg = 150;$/;"	f	class:Client2	file:
+listener	2DClient/Assets/Scripts/Network/Server2.cs	/^    static TcpListener listener;$/;"	f	class:Server2	file:
+newDirection	2DClient/Assets/Scripts/PlayerController.cs	/^    private Vector3 newDirection;$/;"	f	class:PlayerController	file:
+oldTouchDistance	2DClient/Assets/Scripts/TouchCamera.cs	/^    float oldTouchDistance;$/;"	f	class:TouchCamera	file:
+oldTouchPositions	2DClient/Assets/Scripts/TouchCamera.cs	/^    Vector2?[] oldTouchPositions = {$/;"	f	class:TouchCamera	file:
+oldTouchVector	2DClient/Assets/Scripts/TouchCamera.cs	/^    Vector2 oldTouchVector;$/;"	f	class:TouchCamera	file:
+speed	2DClient/Assets/Scripts/PlayerController.cs	/^    private float speed = 0.1f;$/;"	f	class:PlayerController	file:
+timeleft	2DClient/Assets/Scripts/PlayerController.cs	/^    private double timeleft;$/;"	f	class:PlayerController	file:
+x	2DClient/Assets/Scripts/Network/V3.cs	/^    public float x {get; set;}$/;"	p	class:V3
+y	2DClient/Assets/Scripts/Network/V3.cs	/^    public float y {get; set;}$/;"	p	class:V3
+z	2DClient/Assets/Scripts/Network/V3.cs	/^    public float z {get; set;}$/;"	p	class:V3

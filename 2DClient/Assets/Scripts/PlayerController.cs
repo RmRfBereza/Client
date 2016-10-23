@@ -2,7 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
-
+/*
     private Vector3 newDirection;
     private double timeleft;
 
@@ -75,4 +75,5 @@ public class PlayerController : MonoBehaviour
                 return newDirection;
         }
     }
+	*/
 }

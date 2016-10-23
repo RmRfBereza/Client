@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CheckTurnEvent	PlayerController.cs	/^    int CheckTurnEvent()$/;"	m	class:PlayerController	file:
+Client2	Network/Client2.cs	/^class Client2 : MonoBehaviour$/;"	c
+FixedUpdate	PlayerController.cs	/^    void FixedUpdate()$/;"	m	class:PlayerController	file:
+GetNewDirection	PlayerController.cs	/^    Vector3 GetNewDirection(int directionNumber)$/;"	m	class:PlayerController	file:
+LIMIT	Network/Server2.cs	/^    const int LIMIT = 1;$/;"	f	class:Server2	file:
+PlayerController	PlayerController.cs	/^public class PlayerController : MonoBehaviour$/;"	c
+SendSpam	Network/Client2.cs	/^    void SendSpam(){$/;"	m	class:Client2	file:
+Server2	Network/Server2.cs	/^class Server2 : MonoBehaviour$/;"	c
+Service	Network/Server2.cs	/^    void Service(){$/;"	m	class:Server2	file:
+Start	Network/Server2.cs	/^    void Start(){$/;"	m	class:Server2	file:
+Start	PlayerController.cs	/^    void Start()$/;"	m	class:PlayerController	file:
+TouchCamera	TouchCamera.cs	/^public class TouchCamera : MonoBehaviour$/;"	c
+Update	Network/Client2.cs	/^    void Update(){$/;"	m	class:Client2	file:
+Update	TouchCamera.cs	/^    void Update()$/;"	m	class:TouchCamera	file:
+V3	Network/V3.cs	/^    public V3(Vector3 vec)$/;"	m	class:V3
+V3	Network/V3.cs	/^class V3$/;"	c
+formatter	Network/Client2.cs	/^    BinaryFormatter formatter = new BinaryFormatter();$/;"	f	class:Client2	file:
+formatter	Network/Server2.cs	/^    BinaryFormatter formatter = new BinaryFormatter();$/;"	f	class:Server2	file:
+getVec	Network/V3.cs	/^    public Vector3 getVec()$/;"	m	class:V3
+ggg	Network/Client2.cs	/^    int ggg = 150;$/;"	f	class:Client2	file:
+listener	Network/Server2.cs	/^    static TcpListener listener;$/;"	f	class:Server2	file:
+newDirection	PlayerController.cs	/^    private Vector3 newDirection;$/;"	f	class:PlayerController	file:
+oldTouchDistance	TouchCamera.cs	/^    float oldTouchDistance;$/;"	f	class:TouchCamera	file:
+oldTouchPositions	TouchCamera.cs	/^    Vector2?[] oldTouchPositions = {$/;"	f	class:TouchCamera	file:
+oldTouchVector	TouchCamera.cs	/^    Vector2 oldTouchVector;$/;"	f	class:TouchCamera	file:
+speed	PlayerController.cs	/^    private float speed = 0.1f;$/;"	f	class:PlayerController	file:
+timeleft	PlayerController.cs	/^    private double timeleft;$/;"	f	class:PlayerController	file:
+x	Network/V3.cs	/^    public float x {get; set;}$/;"	p	class:V3
+y	Network/V3.cs	/^    public float y {get; set;}$/;"	p	class:V3
+z	Network/V3.cs	/^    public float z {get; set;}$/;"	p	class:V3
